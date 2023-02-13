@@ -1,0 +1,139 @@
+{
+  "partidos": {
+    "1": {
+      "id": "1",
+      "deporte": "Tenis",
+      "jugador1": "Pepe",
+      "jugador2": "Juan",
+      "ciudad": "Pamplona",
+      "fecha": "2010-10-10",
+      "hora": "20:10",
+      "imagen1": "https://cdn.resfu.com/img_data/players/medium/1004380.jpg?size=120x&lossy=1",
+      "imagen2": "https://cdn.resfu.com/img_data/players/medium/427788.jpg?size=120x&lossy=1"
+    },
+    "2": {
+      "id": "2",
+      "deporte": "Tenis",
+      "jugador1": "Marta",
+      "jugador2": "Federico",
+      "ciudad": "Cádiz",
+      "fecha": "2023-10-10",
+      "hora": "21:10",
+      "imagen1": "https://cdn.resfu.com/img_data/players/medium/3162780.jpg?size=120x&lossy=1",
+      "imagen2": "https://cdn.resfu.com/img_data/people/original/47962.jpg?size=120x&lossy=1"
+    },
+    "3": {
+      "id": "3",
+      "deporte": "Esgrima",
+      "jugador1": "Marta",
+      "jugador2": "Federico",
+      "ciudad": "San Fernando",
+      "fecha": "2023-10-11",
+      "hora": "21:10",
+      "imagen1": "https://cdn.resfu.com/img_data/players/medium/3162780.jpg?size=120x&lossy=1",
+      "imagen2": "https://cdn.resfu.com/img_data/people/original/47962.jpg?size=120x&lossy=1"
+    },
+    "4": {
+      "id": "4",
+      "deporte": "Baloncesto",
+      "jugador1": "Marta",
+      "jugador2": "Federico",
+      "jugador3": "Pepito",
+      "jugador4": "Alfredo",
+      "jugador5": "Samuel",
+      "jugador6": "Abdul",
+      "jugador7": "Jesús",
+      "jugador8": "Jeremías",
+      "jugador9": "Miguel",
+      "jugador10": "Rosso",
+      "equipo1": "Ciervo Verde",
+      "equipo2": "Ballenas azules",
+      "imagen_equipo1": null,
+      "imagen_equipo2": null,
+      "ciudad": "San Fernando",
+      "fecha": "2023-10-11",
+      "hora": "21:10",
+      "imagen1": "https://cdn.resfu.com/img_data/players/medium/3162780.jpg?size=120x&lossy=1",
+      "imagen2": "https://cdn.resfu.com/img_data/people/original/47962.jpg?size=120x&lossy=1",
+      "imagen3": "https://cdn.resfu.com/img_data/people/original/47962.jpg?size=120x&lossy=1",
+      "imagen4": "https://cdn.resfu.com/img_data/people/original/47962.jpg?size=120x&lossy=1",
+      "imagen5": "https://cdn.resfu.com/img_data/people/original/47962.jpg?size=120x&lossy=1",
+      "imagen6": "https://cdn.resfu.com/img_data/people/original/47962.jpg?size=120x&lossy=1",
+      "imagen7": "https://cdn.resfu.com/img_data/people/original/47962.jpg?size=120x&lossy=1",
+      "imagen8": "https://cdn.resfu.com/img_data/people/original/47962.jpg?size=120x&lossy=1",
+      "imagen9": "https://cdn.resfu.com/img_data/people/original/47962.jpg?size=120x&lossy=1",
+      "imagen10": "https://cdn.resfu.com/img_data/people/original/47962.jpg?size=120x&lossy=1"
+    },
+    "c5dda013-479e-4ed8-9b75-e27cfdf06987": {
+      "deporte": "Padel",
+      "jugador1": "Pedrito777",
+      "jugador2": "Luismaa2",
+      "ciudad": "Chiclana de la Frontera",
+      "fecha": "2023-11-11",
+      "hora": "04:10",
+      "id": "c5dda013-479e-4ed8-9b75-e27cfdf06987"
+    },
+    "d2432735-e390-4821-ad71-600500732c7c": {
+      "deporte": "Tenis",
+      "jugador1": "Pepitoo345",
+      "jugador2": "Juanete777",
+      "ciudad": "Pamplona",
+      "fecha": "2010-10-10",
+      "hora": "20:10",
+      "id": "d2432735-e390-4821-ad71-600500732c7c"
+    },
+    "418cf15c-7475-4229-bd8e-48b6913d6f3b": {
+      "deporte": "Tenis",
+      "jugador1": "Pepitoo345",
+      "jugador2": "Juanete777",
+      "ciudad": "Pamplona",
+      "fecha": "2010-10-10",
+      "hora": "20:10",
+      "id": "418cf15c-7475-4229-bd8e-48b6913d6f3b"
+    },
+    "b6fb8022-23db-43b8-abf7-826e97923247": {
+      "id": "b6fb8022-23db-43b8-abf7-826e97923247",
+      "deporte": "eeeeeeeee",
+      "jugador1": "ejemplo1",
+      "jugador2": "ejemplo2",
+      "ciudad": "en serio",
+      "fecha": "2024-04-04",
+      "hora": "04:21"
+    },
+    "2326a113-c1bc-47d8-af7d-b92465d73266": {
+      "deporte": "baloncesto",
+      "jugador1": "ejemplo1",
+      "jugador2": "ejemplo2",
+      "ciudad": "looool",
+      "fecha": "2040-02-20",
+      "hora": "20:20"
+    },
+    "2a415f17-8d8b-4810-859d-583b6e12b7ed": {
+      "deporte": "baloncesto",
+      "jugador1": "ejemplo1",
+      "jugador2": "ejemplo2",
+      "ciudad": "Albacete de la Peña",
+      "fecha": "4000-02-21",
+      "hora": "23:44",
+      "id": "2a415f17-8d8b-4810-859d-583b6e12b7ed"
+    },
+    "8dd9fdd9-a967-423a-a666-9500365c0b9c": {
+      "id": "8dd9fdd9-a967-423a-a666-9500365c0b9c",
+      "deporte": "futbol",
+      "jugador1": "ejemplo1",
+      "jugador2": "ejemplo2",
+      "ciudad": "Buenos Aires, Argentinááá",
+      "fecha": "2044-02-11",
+      "hora": "20:11"
+    },
+    "7894e961-3c2e-4bd0-8acb-d921b1a30a53": {
+      "deporte": "futbol",
+      "jugador1": "ejemplo1",
+      "jugador2": "ejemplo2",
+      "ciudad": "oosoo",
+      "fecha": "3000-10-10",
+      "hora": "10:10",
+      "id": "7894e961-3c2e-4bd0-8acb-d921b1a30a53"
+    }
+  }
+}

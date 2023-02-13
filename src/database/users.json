@@ -1,0 +1,26 @@
+{
+  "users": {
+    "UserPrueba": {
+      "name": "UserPrueba",
+      "email": "prueba@prueba.com",
+      "password": "UserPrueba22",
+      "fecha_nacimiento": "2000-10-10",
+      "avatar": null
+    },
+    "danielmera2912": {
+      "name": "danielmera2912",
+      "email": "danielmera2912@gmail.com",
+      "password": "danielMera2912",
+      "fecha_nacimiento": "1980-10-11",
+      "avatar": null
+    },
+    "UserPrueba2": {
+      "name": "UserPrueba2",
+      "email": "prueba2333@prueba.com",
+      "password": "UserPrueba223",
+      "fecha_nacimiento": "2000-10-10",
+      "avatar": null,
+      "id": "UserPrueba2"
+    }
+  }
+}
