@@ -16,7 +16,12 @@ const createOnePartido = (body) => {
     if (!partidoInsertado) return false
     return partidoInsertado
 }
-
+const checkCiudad = (ciudad) => {
+    return partidosModelo.checkCiudad(ciudad);
+};
+const checkDeporte = (deporte) => {
+    return partidosModelo.checkDeporte(deporte);
+};
 const getOnePartido = (id) => {
     const onePartido = partidosModelo.getOnePartido(id)
     return onePartido;
@@ -51,5 +56,7 @@ module.exports = {
     createOnePartido,
     getOnePartido,
     updateOnePartido,
-    deleteOnePartido
+    deleteOnePartido,
+    checkCiudad,
+    checkDeporte
 }

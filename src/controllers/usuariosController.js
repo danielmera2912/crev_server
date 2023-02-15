@@ -1,8 +1,28 @@
-const usersService = require("../services/usersServices")
+const usersService = require("../services/usuariosServices");
 
+const checkRegisterName = ((req, res, next) => {
+    const name = req.params.name
+    if(!name){
+        res.status(400).end();
+    }
+    else{
+        res.send(usersService.checkRegisterName(name));
+    }
+})
+
+const checkRegisterEmail = ((req, res, next) => {
+    const email = req.params.email
+    console.log(email)
+    if(!email){
+        res.status(400).end();
+    }
+    else{
+        res.send(usersService.checkRegisterEmail(email));
+    }
+})
 const getAllUsers = ((req, res, next) => {
+    
     const allUsers = usersService.getAllUsers();
-
     if (allUsers) {
         res.send(allUsers)
     } else {
@@ -12,7 +32,6 @@ const getAllUsers = ((req, res, next) => {
 
 const createOneUser = ((req, res, next) => {
     const { body } = req
-    console.log(body)
     if (!body.name || !body.email || !body.password || !body.fecha_nacimiento) {
         res.status(400).end()
     } else {
@@ -42,9 +61,8 @@ const getOneUser = ((req, res, next) => {
 })
 
 const updateOneUser = ((req, res, next) => {
-    let user = req.params.user;
     let nuevoUser = req.body;
-    const userUpdate = usersService.updateOneUser(user, nuevoUser)
+    const userUpdate = usersService.updateOneUser(nuevoUser)
     if (!userUpdate) {
         res.status(400).send({ mensaje: "El user no ha sido actualizado" }).end();
         res.locals.mensaje = "ERROR";
@@ -75,5 +93,7 @@ module.exports = {
     createOneUser,
     getOneUser,
     updateOneUser,
-    deleteOneUser
+    deleteOneUser,
+    checkRegisterEmail,
+    checkRegisterName
 }

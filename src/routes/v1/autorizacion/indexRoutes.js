@@ -1,10 +1,9 @@
 const express = require("express")
 const router = express.Router()
 const partidosRoutes = require("./partidosRoutes")
-const usersRoutes = require("./usuariosRoutes")
 
 router.use("/partidos", partidosRoutes.router)
-router.use("/users", usersRoutes.router)
+// router.use("/users", usersRoutes.router)
 
 router.get("/", (req, res, next)=>{
     res.send("Hola mundo")

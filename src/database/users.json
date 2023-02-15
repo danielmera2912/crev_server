@@ -1,26 +1,44 @@
 {
   "users": {
-    "UserPrueba": {
+    "61dbae02-c147-4e28-863c-db7bd402b2d6": {
+      "id": "61dbae02-c147-4e28-863c-db7bd402b2d6",
       "name": "UserPrueba",
       "email": "prueba@prueba.com",
       "password": "UserPrueba22",
       "fecha_nacimiento": "2000-10-10",
       "avatar": null
     },
-    "danielmera2912": {
+    "61dbae02-c147-4e28-863c-db7bd402b2d7": {
+      "id": "61dbae02-c147-4e28-863c-db7bd402b2d7",
       "name": "danielmera2912",
       "email": "danielmera2912@gmail.com",
       "password": "danielMera2912",
       "fecha_nacimiento": "1980-10-11",
       "avatar": null
     },
-    "UserPrueba2": {
-      "name": "UserPrueba2",
-      "email": "prueba2333@prueba.com",
-      "password": "UserPrueba223",
+    "3fe35a8f-ee43-4981-8864-a7596fea4e17": {
+      "name": "juanito22",
+      "email": "sdrffd@gmail.com",
+      "password": "danielMera2912",
+      "fecha_nacimiento": "1980-10-11",
+      "avatar": null,
+      "id": "3fe35a8f-ee43-4981-8864-a7596fea4e17"
+    },
+    "b49d0f49-66d6-4801-8cf6-92060d24aca4": {
+      "name": "jjj",
+      "email": "jjj@gmail.com",
+      "password": "jjjjJJJ37433",
+      "fecha_nacimiento": "2000-10-11",
+      "avatar": null,
+      "id": "b49d0f49-66d6-4801-8cf6-92060d24aca4"
+    },
+    "a72e8985-a0f8-48c5-9267-264100fb618c": {
+      "name": "eeeeee",
+      "email": "eeee@gmai.co",
+      "password": "eejuieje389E",
       "fecha_nacimiento": "2000-10-10",
       "avatar": null,
-      "id": "UserPrueba2"
+      "id": "a72e8985-a0f8-48c5-9267-264100fb618c"
     }
   }
 }

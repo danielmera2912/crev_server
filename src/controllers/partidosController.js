@@ -2,7 +2,6 @@ const partidosService = require("../services/partidosServices")
 
 const getAllPartidos = ((req, res, next) => {
     const allPartidos = partidosService.getAllPartidos();
-
     if (allPartidos) {
         res.send(allPartidos)
     } else {
@@ -12,7 +11,6 @@ const getAllPartidos = ((req, res, next) => {
 
 const createOnePartido = ((req, res, next) => {
     const { body } = req
-    console.log(body)
     if (!body.deporte || !body.jugador1 || !body.ciudad || !body.fecha || !body.hora) {
         res.status(400).end()
     } else {
@@ -61,7 +59,24 @@ const getOnePartido = ((req, res, next) => {
         res.status(404).end()
     }
 })
-
+const checkCiudad = ((req, res, next) => {
+    const ciudad = req.params.ciudad
+    if(!ciudad){
+        res.status(400).end();
+    }
+    else{
+        res.send(partidosService.checkCiudad(ciudad));
+    }
+})
+const checkDeporte = ((req, res, next) => {
+    const deporte = req.params.deporte
+    if(!deporte){
+        res.status(400).end();
+    }
+    else{
+        res.send(partidosService.checkDeporte(deporte));
+    }
+})
 const updateOnePartido = ((req, res, next) => {
     let partido = req.params.partido;
     let nuevoPartido = req.body;
@@ -96,5 +111,7 @@ module.exports = {
     createOnePartido,
     getOnePartido,
     updateOnePartido,
-    deleteOnePartido
+    deleteOnePartido,
+    checkCiudad,
+    checkDeporte
 }
