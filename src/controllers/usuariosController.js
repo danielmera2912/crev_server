@@ -12,7 +12,6 @@ const checkRegisterName = ((req, res, next) => {
 
 const checkRegisterEmail = ((req, res, next) => {
     const email = req.params.email
-    console.log(email)
     if(!email){
         res.status(400).end();
     }

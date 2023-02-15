@@ -39,6 +39,38 @@
       "fecha_nacimiento": "2000-10-10",
       "avatar": null,
       "id": "a72e8985-a0f8-48c5-9267-264100fb618c"
+    },
+    "82079445-f09d-47b9-9331-f9ec36c81b09": {
+      "name": "eeeeeeeee",
+      "email": "eee@pruebeebaa.co",
+      "password": "danielMera2912E",
+      "fecha_nacimiento": "1980-02-10",
+      "avatar": null,
+      "id": "82079445-f09d-47b9-9331-f9ec36c81b09"
+    },
+    "709076da-1e5a-41da-91f5-9a17559f1aab": {
+      "name": "BuenosDias2",
+      "email": "buenosdias@gmail.com",
+      "password": "$2a$10$VCDL1vAVA28H90sqABrruOy3LUgamiuMwJa4lqrnjIsiyCBXzVnJG",
+      "fecha_nacimiento": "2000-10-10",
+      "avatar": null,
+      "id": "709076da-1e5a-41da-91f5-9a17559f1aab"
+    },
+    "dd34d357-fdfe-4d64-83af-575f6f7eb372": {
+      "name": "danielmera29",
+      "email": "danielmera912@gmail.com",
+      "password": "$2a$10$pymd.1DiK4MHma5E5iljvu5aAnUQRWDE2YXolobxREEWBX4UcLpaa",
+      "fecha_nacimiento": "2000-10-10",
+      "avatar": null,
+      "id": "dd34d357-fdfe-4d64-83af-575f6f7eb372"
+    },
+    "345effa4-f53e-41d2-8ff2-75bf366efd9b": {
+      "name": "pepito278",
+      "email": "pepito278@gmail.com",
+      "password": "$2a$10$qWdOnuRdPPGjgNBHgn78COmzS87PlHOYU3Ld4ZNStx6ifAz.0fEdy",
+      "fecha_nacimiento": "2000-10-10",
+      "avatar": null,
+      "id": "345effa4-f53e-41d2-8ff2-75bf366efd9b"
     }
   }
 }
