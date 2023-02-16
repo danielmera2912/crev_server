@@ -7,6 +7,9 @@ const authenticateUser = (req, res, next) => {
 
   
   if (!password && !email && !cookies.sessionId) {
+    console.log("1")
+    console.log(password)
+    console.log(email)
     res.status(401).send({ mensaje: "No tienes autorización" }).end();
     return;
   }
@@ -15,6 +18,7 @@ const authenticateUser = (req, res, next) => {
 
     const id = authenticationService.checkUserEmail(email, password);
     if (!id) {
+      console.log("2")
       res.status(401).send({ mensaje: "No tienes autorización" }).end();
       return;
     }
@@ -35,6 +39,7 @@ const authenticateUser = (req, res, next) => {
 
     const { sessionId } = cookies;
     if (!authenticationService.checkSession(sessionId)) {
+      console.log("3")
       res.status(401).send({ mensaje: "NO AUTORIZADO" }).end();
       return;
     }

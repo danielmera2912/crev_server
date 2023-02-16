@@ -5,9 +5,9 @@ const getAllUsers = () => {
     return allUsers;
 }
 const checkUserEmail = (email, password) => {
-    const usuario = usuariosModelo.checkUserEmail(email, password);
-    if (!usuario) return false;
-    return usuario.id;
+    const id = usuariosModelo.checkUserEmail(email, password);
+    if (!id) return false;
+    return id;
 };
 const checkRegisterEmail = (email) => {
     return usuariosModelo.checkRegisterEmail(email);

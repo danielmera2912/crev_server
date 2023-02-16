@@ -77,6 +77,16 @@ const checkDeporte = ((req, res, next) => {
         res.send(partidosService.checkDeporte(deporte));
     }
 })
+const checkFiltros = ((req, res, next) => {
+    const ciudad = req.params.ciudad
+    const deporte = req.params.deporte
+    if(!ciudad && !deporte){
+        res.status(400).end();
+    }
+    else{
+        res.send(partidosService.checkFiltros(ciudad,deporte));
+    }
+})
 const updateOnePartido = ((req, res, next) => {
     let partido = req.params.partido;
     let nuevoPartido = req.body;
@@ -113,5 +123,6 @@ module.exports = {
     updateOnePartido,
     deleteOnePartido,
     checkCiudad,
-    checkDeporte
+    checkDeporte,
+    checkFiltros
 }

@@ -22,6 +22,9 @@ const checkCiudad = (ciudad) => {
 const checkDeporte = (deporte) => {
     return partidosModelo.checkDeporte(deporte);
 };
+const checkFiltros = (ciudad,deporte) => {
+    return partidosModelo.checkFiltros(ciudad,deporte);
+};
 const getOnePartido = (id) => {
     const onePartido = partidosModelo.getOnePartido(id)
     return onePartido;
@@ -58,5 +61,6 @@ module.exports = {
     updateOnePartido,
     deleteOnePartido,
     checkCiudad,
-    checkDeporte
+    checkDeporte,
+    checkFiltros
 }

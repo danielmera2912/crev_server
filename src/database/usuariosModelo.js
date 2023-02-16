@@ -5,9 +5,12 @@ const datos = require("./users.json")
 
 
 const checkUserEmail = (email, password) => {
-  return usersData.users.find(
-    (usuario) => usuario.email === email && usuario.password === password
-  );
+  let idResultado = ""
+  Object.keys(datos.users).forEach(function(id){
+    let result = getOneUser(id)
+    if(result.email.toLowerCase() === email.toLowerCase() && result.password === password) idResultado = id
+  })
+  return idResultado
 };
 
 const getOneUser = (id) => {

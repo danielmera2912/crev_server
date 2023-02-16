@@ -5,8 +5,8 @@ const partidosRoutes = require("./partidosRoutes")
 router.use("/partidos", partidosRoutes.router)
 // router.use("/users", usersRoutes.router)
 
-router.get("/", (req, res, next)=>{
-    res.send("Hola mundo")
+router.post("/", (req, res, next)=>{
+    res.send("OK")
 })
 
 

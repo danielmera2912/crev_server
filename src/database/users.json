@@ -71,6 +71,14 @@
       "fecha_nacimiento": "2000-10-10",
       "avatar": null,
       "id": "345effa4-f53e-41d2-8ff2-75bf366efd9b"
+    },
+    "1e4a5601-50a4-481d-bac2-37fd954fc6bc": {
+      "name": "juanjiko10",
+      "email": "juanjiko10@g.co",
+      "password": "b5205a5c5b6507b6adc98ee792353094da781b3a",
+      "fecha_nacimiento": "1977-11-21",
+      "avatar": null,
+      "id": "1e4a5601-50a4-481d-bac2-37fd954fc6bc"
     }
   }
 }
