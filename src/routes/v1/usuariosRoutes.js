@@ -8,10 +8,12 @@ router.route("/")
 
 
 router.route("/:user").get(usersController.getOneUser)
+      .get(usersController.getOneUserEmail)
       .put(usersController.updateOneUser)
       .delete(usersController.deleteOneUser)
       
 router.route("/email/:email").get(usersController.checkRegisterEmail);
+router.route("/emailBuscar/:email").get(usersController.getOneUserEmail)
 router.route("/name/:name").get(usersController.checkRegisterName)
 module.exports.router = router
 

@@ -59,6 +59,15 @@ const getOneUser = ((req, res, next) => {
     }
 })
 
+const getOneUserEmail = ((req, res, next) => {
+    const email = req.params.email
+    if(!email){
+        res.status(400).end();
+    }
+    else{
+        res.send(usersService.getOneUserEmail(email));
+    }
+})
 const updateOneUser = ((req, res, next) => {
     let nuevoUser = req.body;
     const userUpdate = usersService.updateOneUser(nuevoUser)
@@ -94,5 +103,6 @@ module.exports = {
     updateOneUser,
     deleteOneUser,
     checkRegisterEmail,
-    checkRegisterName
+    checkRegisterName,
+    getOneUserEmail
 }

@@ -34,6 +34,15 @@ const checkRegisterEmail = (email) => {
   })
   return check
 };
+
+const getOneUserEmail = (email) => {
+  let json = []
+  Object.keys(datos.users).forEach(function(id){
+    let result = getOneUser(id)
+    if(result.email.toLowerCase() === email.toLowerCase()) json.push(datos.users[result.id])
+  })
+  return json
+}
 const insertUser = (user) => {
   const id = user.id
   datos.users[id] = user
@@ -102,5 +111,6 @@ module.exports = {
   getOneUser,
   updateOneUser,
   deleteOneUser,
-  getAllUsers
+  getAllUsers,
+  getOneUserEmail
 };

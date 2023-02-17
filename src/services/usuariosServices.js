@@ -54,6 +54,10 @@ const getOneUser = (id) => {
     const oneUser = usuariosModelo.getOneUser(id)
     return oneUser;
 }
+
+const getOneUserEmail = (email) => {
+    return usuariosModelo.getOneUserEmail(email);
+}
 const deleteOneUser = (id) => {
     const user = usuariosModelo.getOneUser(id);
     if (!user) {
@@ -66,6 +70,7 @@ const deleteOneUser = (id) => {
         return false
     }
 };
+
 module.exports = {
     createOneUser,
     checkUserEmail,
@@ -77,5 +82,6 @@ module.exports = {
     updateOneUser,
     getOneUser,
     deleteOneUser,
-    getAllUsers
+    getAllUsers,
+    getOneUserEmail
 };

@@ -12,7 +12,7 @@
       "id": "61dbae02-c147-4e28-863c-db7bd402b2d7",
       "name": "danielmera2912",
       "email": "danielmera2912@gmail.com",
-      "password": "danielMera2912",
+      "password": "73db3d9fd61412f5fab5603c0e94bf34e08cdebd",
       "fecha_nacimiento": "1980-10-11",
       "avatar": null
     },
@@ -79,6 +79,14 @@
       "fecha_nacimiento": "1977-11-21",
       "avatar": null,
       "id": "1e4a5601-50a4-481d-bac2-37fd954fc6bc"
+    },
+    "209048f1-42f4-46c8-a5d6-66e22cb489f0": {
+      "name": "antonio",
+      "email": "antonio37@gmail.com",
+      "password": "53de865cbcbd64e8800e6500b1e34180921d212c",
+      "fecha_nacimiento": "1975-01-20",
+      "avatar": null,
+      "id": "209048f1-42f4-46c8-a5d6-66e22cb489f0"
     }
   }
 }
