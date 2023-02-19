@@ -1,10 +1,13 @@
 const partidosModelo = require("../database/partidosModelo")
 const { v4: uuid } = require("uuid")
+// Estos son los servicios de los partidos
+
+// obtener todos los partidos
 const getAllPartidos = () => {
     const allPartidos = partidosModelo.getAllPartidos()
     return allPartidos;
 }
-
+// crear un nuevo partido
 const createOnePartido = (body) => {
     const partidoNuevo = {
         ...body,
@@ -16,20 +19,26 @@ const createOnePartido = (body) => {
     if (!partidoInsertado) return false
     return partidoInsertado
 }
+
+// comprobar si existe una ciudad y devolver los partidos que cumplan la condición
 const checkCiudad = (ciudad) => {
     return partidosModelo.checkCiudad(ciudad);
 };
+
+// comprobar si existe un deporte y devolver los partidos que cumplan la condición 
 const checkDeporte = (deporte) => {
     return partidosModelo.checkDeporte(deporte);
 };
-const checkFiltros = (ciudad,deporte) => {
-    return partidosModelo.checkFiltros(ciudad,deporte);
+// comprobar si existe un deporte y una ciudad y devolver los partidos que cumplan la condición
+const checkFiltros = (ciudad, deporte) => {
+    return partidosModelo.checkFiltros(ciudad, deporte);
 };
+// comprobar si existe un partido mediante la id
 const getOnePartido = (id) => {
     const onePartido = partidosModelo.getOnePartido(id)
     return onePartido;
 }
-
+// actualizar un partido
 const updateOnePartido = (nombre, nuevoPartido) => {
     const partido = partidosModelo.getOnePartido(nombre)
     if (!partido) {
@@ -37,7 +46,7 @@ const updateOnePartido = (nombre, nuevoPartido) => {
     }
     return partidosModelo.updateOnePartido(nombre, nuevoPartido);
 }
-
+// eliminar un partido
 const deleteOnePartido = (nombre) => {
     const partido = partidosModelo.getOnePartido(nombre);
     if (!partido) {

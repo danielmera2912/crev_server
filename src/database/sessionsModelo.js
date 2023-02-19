@@ -1,17 +1,17 @@
 const datos = require("./sessions.json");
 const fs = require("fs");
-
+// Comprueba una sesión
 const checkSession = (id) => {
   return datos.sessions.find(
     (session) => session.id === id
   );
 };
-
+//Comprueba si existe una sesión
 const checkIfSessionExist = (id_usuario) => {
   return datos.sessions.find((session) => session.id === id_usuario);
 };
 
-
+// ELimina una sesión
 const deleteOneSession = (id) => {
   const sessionIndex = datos.sessions.findIndex(
     (session) => session.id === id

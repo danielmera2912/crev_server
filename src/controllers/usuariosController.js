@@ -1,26 +1,27 @@
 const usersService = require("../services/usuariosServices");
-
+// Se define el controlador para obtener todos los usuarios
 const checkRegisterName = ((req, res, next) => {
     const name = req.params.name
-    if(!name){
+    if (!name) {
         res.status(400).end();
     }
-    else{
+    else {
         res.send(usersService.checkRegisterName(name));
     }
 })
-
+// Función que comprueba si un email existe
 const checkRegisterEmail = ((req, res, next) => {
     const email = req.params.email
-    if(!email){
+    if (!email) {
         res.status(400).end();
     }
-    else{
+    else {
         res.send(usersService.checkRegisterEmail(email));
     }
 })
+// Se define el controlador para obtener todos los usuarios
 const getAllUsers = ((req, res, next) => {
-    
+
     const allUsers = usersService.getAllUsers();
     if (allUsers) {
         res.send(allUsers)
@@ -28,7 +29,7 @@ const getAllUsers = ((req, res, next) => {
         res.status(404).end()
     }
 })
-
+// Función que crea un usuario
 const createOneUser = ((req, res, next) => {
     const { body } = req
     if (!body.name || !body.email || !body.password || !body.fecha_nacimiento) {
@@ -48,7 +49,7 @@ const createOneUser = ((req, res, next) => {
 
     res.end()
 })
-
+// Función que obtiene un usuario
 const getOneUser = ((req, res, next) => {
     let user = req.params.user
     const oneUser = usersService.getOneUser(user)
@@ -58,16 +59,17 @@ const getOneUser = ((req, res, next) => {
         res.status(404).end()
     }
 })
-
+// Función que obtiene un usuario mediante el email
 const getOneUserEmail = ((req, res, next) => {
     const email = req.params.email
-    if(!email){
+    if (!email) {
         res.status(400).end();
     }
-    else{
+    else {
         res.send(usersService.getOneUserEmail(email));
     }
 })
+// Función que actualiza el usuario
 const updateOneUser = ((req, res, next) => {
     let nuevoUser = req.body;
     const userUpdate = usersService.updateOneUser(nuevoUser)
@@ -80,7 +82,7 @@ const updateOneUser = ((req, res, next) => {
     }
 })
 
-
+// Función que elimina el usuario
 const deleteOneUser = (req, res, next) => {
     let { user } = req.params;
 
