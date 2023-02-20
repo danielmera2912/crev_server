@@ -12,29 +12,6 @@
       "imagen2": "https://i.ibb.co/VJy4cXk/defaultimage.png",
       "id": "a21062d8-f7bc-43fb-ad9a-3a14da707438"
     },
-    "bef6131a-7aa3-474e-b27e-79d03a2edb19": {
-      "deporte": "Padel",
-      "jugador1": "prueba",
-      "jugador2": "prueba1",
-      "ciudad": "Coruña",
-      "fecha": "2044-11-11",
-      "hora": "22:33",
-      "imagen1": "https://images.pexels.com/photos/5609026/pexels-photo-5609026.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "imagen2": "https://images.pexels.com/photos/5609026/pexels-photo-5609026.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "id": "bef6131a-7aa3-474e-b27e-79d03a2edb19",
-      "idJugador2": "eadcbf82-e5c5-4cc9-89a7-19acbbed0629"
-    },
-    "8e4346b1-f4c1-4bcd-b14d-c7f25fb6a8f8": {
-      "id": "8e4346b1-f4c1-4bcd-b14d-c7f25fb6a8f8",
-      "deporte": "Baloncesto",
-      "imagen1": "https://images.pexels.com/photos/5609026/pexels-photo-5609026.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "imagen2": "https://i.ibb.co/VJy4cXk/defaultimage.png",
-      "jugador1": "prueba",
-      "jugador2": "Plaza vacante",
-      "ciudad": "Cádiz",
-      "fecha": "2055-11-11",
-      "hora": "11:11"
-    },
     "4cf2838c-af49-4817-9048-781f4d63e4db": {
       "id": "4cf2838c-af49-4817-9048-781f4d63e4db",
       "deporte": "Fútbol Sala",
