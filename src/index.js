@@ -16,7 +16,7 @@ app.use(cookieParser());
 
 // Incluimos el middleware cors para permitir peticiones desde un origen específico y para permitir el envío de cookies.
 app.use(cors({
-  origin: "https://crev.netlify.app",  // Origen permitido de las solicitudes.
+  origin: '*',  // Origen permitido de las solicitudes.
   credentials: true  // Habilita el uso de cookies por parte del cliente.
 }));
 
