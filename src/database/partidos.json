@@ -1,17 +1,5 @@
 {
   "partidos": {
-    "aac97cb4-8383-4626-95f2-14ceb26980af": {
-      "deporte": "Baloncesto",
-      "idJugador1": "1c30c2b9-eb2d-4f02-87af-c462a6cd5d30",
-      "jugador1": "prueba",
-      "jugador2": "Plaza vacante",
-      "ciudad": "ehkbrje",
-      "fecha": "4011-11-11",
-      "hora": "11:11",
-      "imagen1": "https://images.pexels.com/photos/5609026/pexels-photo-5609026.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "imagen2": "https://i.ibb.co/VJy4cXk/defaultimage.png",
-      "id": "aac97cb4-8383-4626-95f2-14ceb26980af"
-    },
     "a21062d8-f7bc-43fb-ad9a-3a14da707438": {
       "deporte": "Tenis",
       "idJugador1": "1c30c2b9-eb2d-4f02-87af-c462a6cd5d30",
