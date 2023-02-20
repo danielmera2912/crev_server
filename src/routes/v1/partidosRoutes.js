@@ -4,7 +4,7 @@ const partidosController = require("../../controllers/partidosController")
 // las rutas para:
 
 // obtener todos los partidos
-router.route("/").get(partidosController.getAllPartidos)
+router.route("/").get(partidosController.getAllPartidos).post(partidosController.createOnePartido)
 
 // obtener un partido
 router.route("/:partido").get(partidosController.getOnePartido)
