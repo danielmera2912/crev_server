@@ -70,13 +70,10 @@ const checkIfSessionExist = (id_usuario) => {
 // Se añade una nueva sesión
 const addSession = (id, sessionId) => {
   sessionsData.sessions.push({ id, sessionId });
-  fs.writeFile(
+  fs.writeFileSync(
     "./src/database/sessions.json",
     JSON.stringify(sessionsData, null, 2),
-    "utf8",
-    (err) => {
-      throw new Error("error");
-    }
+    "utf8"
   );
 };
 // Se obtienen todos los usuarios
